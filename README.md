@@ -21,6 +21,7 @@ http.host == "ichimarumaru.tech"
 
 
 **Explanation**
+
 Solution: nginx/1.18.0 (Ubuntu)
 
 
@@ -36,6 +37,7 @@ http.auth basic
 
 
 **Explanation**
+
 Solution: Screenshot
 
 
@@ -51,18 +53,29 @@ http.host == basic.ichimarumaru.tech
 
 
 **Explanation**
+
 Solution: 
+
 username: kuncimenujulautan
+
 password: tQKEJFbgNGC1NCZlWAOjhyCOm6o3xEbPkJhTciZN
 
 Next Question: Sebutkan urutan konfigurasi pengkabelan T568A!
+
 1. White Green		
+
 2. Green		
+
 3. White Orange		
+
 4. Blue			
+
 5. White Blue
+
 6. Orange
+
 7. White Brown
+
 8. Brown
 
 # Question 4
@@ -77,6 +90,7 @@ Next Question: Sebutkan urutan konfigurasi pengkabelan T568A!
 
 
 **Explanation**
+
 Solution: Screenshot
 
 
@@ -92,8 +106,26 @@ mysql.query matches insert
 
 
 **Explanation**
+
 Solution: Screenshot
 
+Next Question: Sebutkan urutan konfigurasi pengkabelan T568B!
+
+1. White Orange	
+
+2. Orange
+
+3. White Green		
+
+4. Blue			
+
+5. White Blue
+
+6. Green
+
+7. White Brown
+
+8. Brown
 
 # Question 6
 **Find username and password when logging into FTP Server!**
@@ -107,6 +139,7 @@ ftp.request.command == USER || ftp.request.command == PASS
 
 
 **Explanation**
+
 Solution: ftp.request is used when handling FTP Server
 
 
@@ -122,6 +155,7 @@ frame contains “Real.pdf”
 
 
 **Explanation**
+
 Solution: Ubah show data as “Raw”, lalu save as pdf
 
 
@@ -137,6 +171,7 @@ ftp.request.command == RETR
 
 
 **Explanation**
+
 Solution: RETR (Retrieval of files)
 
 
@@ -152,10 +187,15 @@ ftp-data.command contains "secret.zip"
 
 
 **Explanation**
+
 Solution: 
+
 look for secret.zip
+
 Follow TCP Stream
+
 Save as zip file
+
 Open, and you need password for access...
 
 # Question 10
