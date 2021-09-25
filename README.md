@@ -30,15 +30,19 @@ Work Explanation:
 http.host == "ichimarumaru.tech"
 ```
 
-**Screenshot**
+**Explanation**
+
+At the first input ```http.host == "ichimarumaru.tech"``` as the filter.
 
 ![Screenshot (6970)](https://user-images.githubusercontent.com/61174498/134769802-c5fad366-6e97-4836-8abe-e6bc0a786799.png)
 
+After that select one of them and follow TCP Stream. Then it will appear as below:
+
 ![Screenshot (6971)](https://user-images.githubusercontent.com/61174498/134769807-e99974a5-1e68-48c6-a5a9-f0dc24130b53.png)
 
-**Explanation**
+**Solution**
 
-Solution: nginx/1.18.0 (Ubuntu)
+Web Server: nginx/1.18.0 (Ubuntu)
 
 # Question 2
 **Find the packets from the web that use the basic authentication method!**
