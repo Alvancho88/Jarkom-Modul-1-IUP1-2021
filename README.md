@@ -57,7 +57,7 @@ http.auth basic
 
 **Explanation**
 
-Solution: Screenshot
+Solution: All of packets that are shown in screenshot.
 
 # Question 3
 **Follow the instructions at basic.ichimaru maru.tech! Username and password can be obtained from the .pcapng file!**
@@ -76,6 +76,8 @@ http.host == basic.ichimarumaru.tech
 **Explanation**
 
 Solution: 
+
+Look for the password inside the Authorization in HTP
 
 username: kuncimenujulautan
 
@@ -112,7 +114,7 @@ Input ```mysql.command==3``` as the filter.
 
 ![Screenshot (6948)](https://user-images.githubusercontent.com/61174498/134769847-5b49daa3-09c7-4c7f-89ca-4ccfbaf54c36.png)
 
-Solution: All of packet that are shown in screenshot.
+Solution: All of packets that are shown in screenshot.
 
 
 # Question 5
@@ -212,9 +214,11 @@ ftp.request.command == STOR
 
 ![Screenshot (6996)](https://user-images.githubusercontent.com/61174498/134770580-93d41dbb-83ab-4032-a6f0-13335ab090dd.png)
 
+![Screenshot (6998)](https://user-images.githubusercontent.com/61174498/134771458-10b12184-db16-4c5d-8b11-6aba8913aae5.png)
+
 **Explanation**
 
-Solution: STOR (Retrieval of files)
+Solution: RETR (Retrieval of files)
 
 RETR		Retrieve a copy of the file
 
