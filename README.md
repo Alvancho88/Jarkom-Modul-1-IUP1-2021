@@ -10,13 +10,17 @@ Repository Laporan Resmi Praktikum Modul 1 Jarkom Wireshark
 **(05111942000028) Salma Izzatul Islam**
 
 Work Explanation:
-Aldi
+
+**Aldi**
+
 2,3,8,9,10,15
 
-Juan
+**Juan**
+
 1,4,5,6,7
 
-Salma
+**Salma**
+
 11,12,13,14
 
 # Question 1
@@ -159,6 +163,9 @@ ftp.request.command == USER || ftp.request.command == PASS
 
 Solution: ftp.request is used when handling FTP Server
 
+USER		Authentication username.
+
+PASS		Authentication password
 
 # Question 7
 **There are 500 zip files saved to FTP Server with names 0.zip, 1.zip, 2.zip, ..., 499.zip. Save and Open the pdf file. (Hint = the name of the pdf is "Real.pdf")**
@@ -195,6 +202,7 @@ ftp.request.command == RETR
 
 Solution: RETR (Retrieval of files)
 
+RETR		Retrieve a copy of the file
 
 # Question 9
 **From the packets going to FTP, there are indications of storing some files. One of them is a file containing confidential data with the name "secret.zip". Save and open the file!**
