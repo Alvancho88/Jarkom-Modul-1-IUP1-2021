@@ -18,12 +18,13 @@ http.host == "ichimarumaru.tech"
 
 **Screenshot**
 
+![Screenshot (6970)](https://user-images.githubusercontent.com/61174498/134769802-c5fad366-6e97-4836-8abe-e6bc0a786799.png)
 
+![Screenshot (6971)](https://user-images.githubusercontent.com/61174498/134769807-e99974a5-1e68-48c6-a5a9-f0dc24130b53.png)
 
 **Explanation**
 
 Solution: nginx/1.18.0 (Ubuntu)
-
 
 # Question 2
 **Find the packets from the web that use the basic authentication method!**
@@ -34,12 +35,11 @@ http.auth basic
 
 **Screenshot**
 
-
+![Screenshot (6972)](https://user-images.githubusercontent.com/61174498/134769815-9cc469fd-203f-4ad0-ae4a-80e0aa0f6aa2.png)
 
 **Explanation**
 
 Solution: Screenshot
-
 
 # Question 3
 **Follow the instructions at basic.ichimaru maru.tech! Username and password can be obtained from the .pcapng file!**
@@ -50,7 +50,10 @@ http.host == basic.ichimarumaru.tech
 
 **Screenshot**
 
+![Screenshot (6973)](https://user-images.githubusercontent.com/61174498/134769830-f75a3bc0-380f-428c-9bce-2cb232e92fa1.png)
 
+
+![Screenshot (6974)](https://user-images.githubusercontent.com/61174498/134769832-e8ceaf28-6446-4ad8-9a6f-69659d427b9e.png)
 
 **Explanation**
 
@@ -82,12 +85,12 @@ Next Question: Sebutkan urutan konfigurasi pengkabelan T568A!
 **Find the mysql packets that contain the select query command!**
 
 ```
- mysql.query matches select
+mysql.command==3
 ```
 
 **Screenshot**
 
-
+![Screenshot (6948)](https://user-images.githubusercontent.com/61174498/134769847-5b49daa3-09c7-4c7f-89ca-4ccfbaf54c36.png)
 
 **Explanation**
 
@@ -103,7 +106,11 @@ mysql.query matches insert
 
 **Screenshot**
 
+![Screenshot (6975)](https://user-images.githubusercontent.com/61174498/134769851-e1636af4-248e-45a4-82b2-cc26a8e6aeee.png)
 
+![Screenshot (6976)](https://user-images.githubusercontent.com/61174498/134769855-16fbd1e3-6e42-4456-9146-8c84c94cd8ce.png)
+
+![Screenshot (6977)](https://user-images.githubusercontent.com/61174498/134769859-c2dc36dc-35a0-4ad9-804f-cce009efa202.png)
 
 **Explanation**
 
@@ -136,7 +143,7 @@ ftp.request.command == USER || ftp.request.command == PASS
 
 **Screenshot**
 
-
+![Screenshot (6978)](https://user-images.githubusercontent.com/61174498/134769867-202eb5ca-1d09-43ec-85af-7cc796916080.png)
 
 **Explanation**
 
@@ -152,7 +159,11 @@ frame contains “Real.pdf”
 
 **Screenshot**
 
+![Screenshot (6979)](https://user-images.githubusercontent.com/61174498/134769873-5c78650c-84e2-407e-ba12-4862defbe2e0.png)
 
+![Screenshot (6980)](https://user-images.githubusercontent.com/61174498/134769879-117b453e-d374-47f6-9e8e-ee8cce6cd43f.png)
+
+![Screenshot (6981)](https://user-images.githubusercontent.com/61174498/134769884-a869d0a3-3a62-4960-8b99-1971df098142.png)
 
 **Explanation**
 
@@ -184,7 +195,9 @@ ftp-data.command contains "secret.zip"
 
 **Screenshot**
 
+![Screenshot (6982)](https://user-images.githubusercontent.com/61174498/134769906-9123c33a-57eb-4225-af4c-893a2ac4f07d.png)
 
+![Screenshot (6983)](https://user-images.githubusercontent.com/61174498/134769910-34349d8d-8410-4f57-8768-49ee711ab1e5.png)
 
 **Explanation**
 
@@ -207,7 +220,15 @@ ftp-data.command contains "history.txt"
 
 **Screenshot**
 
+![Screenshot (6984)](https://user-images.githubusercontent.com/61174498/134769920-baec42d3-976d-4511-a36e-68b65fc1e4e4.png)
 
+![Screenshot (6985)](https://user-images.githubusercontent.com/61174498/134769921-39706a2b-f56b-404d-bf88-a953d2cc8b46.png)
+
+![Screenshot (6986)](https://user-images.githubusercontent.com/61174498/134769925-9d0b8699-4c26-4a40-b82c-25026ed1d24d.png)
+
+![Screenshot (6987)](https://user-images.githubusercontent.com/61174498/134769929-6eebedfd-d1c6-40ee-a897-b11aa767c047.png)
+
+![Screenshot (6988)](https://user-images.githubusercontent.com/61174498/134769930-a0e39b7d-7dd9-408d-9659-feec1670be80.png)
 
 **Explanation**
 
@@ -238,7 +259,7 @@ tcp.srcport == 80
 
 **Screenshot**
 
-
+![Screenshot (6989)](https://user-images.githubusercontent.com/61174498/134769939-1c44471f-92e6-4028-ae6b-5edcdf88cc1a.png)
 
 **Explanation**
 
@@ -257,7 +278,7 @@ tcp.port == 21
 
 **Screenshot**
 
-
+![Screenshot (6990)](https://user-images.githubusercontent.com/61174498/134769951-b9f73a5c-7e15-4e44-8c5d-65e5ca8a69a3.png)
 
 **Explanation**
 Solution:
@@ -273,7 +294,7 @@ tcp.dstport == 443
 
 **Screenshot**
 
-
+![Screenshot (6991)](https://user-images.githubusercontent.com/61174498/134769955-092dd1b4-f733-40f3-8ffe-39c9c8a9d5b6.png)
 
 **Explanation**
 Solution:
@@ -291,7 +312,7 @@ dst host kemenag.go.id
 
 **Screenshot**
 
-
+![Screenshot (6992)](https://user-images.githubusercontent.com/61174498/134769963-bc62d345-8345-45fe-b2a5-350224ec21d2.png)
 
 **Explanation**
 Solution:
@@ -309,8 +330,7 @@ ip.src==<local ip address>
 
 **Screenshot**
 
-
-
+![Screenshot (6993)](https://user-images.githubusercontent.com/61174498/134769967-3c0c99e4-3403-40a8-957b-42d233c70d3a.png)
 
 **Explanation**
 Solution:
