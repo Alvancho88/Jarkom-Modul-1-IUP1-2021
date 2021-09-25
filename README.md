@@ -208,6 +208,8 @@ Solution: STOR (Retrieval of files)
 
 RETR		Retrieve a copy of the file
 
+STOR		Accept the data and to store the data as a file at the server site
+
 # Question 9
 **From the packets going to FTP, there are indications of storing some files. One of them is a file containing confidential data with the name "secret.zip". Save and open the file!**
 
