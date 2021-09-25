@@ -195,16 +195,16 @@ Solution: Ubah show data as “Raw”, lalu save as pdf
 **Look for the packets that show the retrieval of files from the FTP!**
 
 ```
-ftp.request.command == RETR
+ftp.request.command == STOR
 ```
 
 **Screenshot**
 
-
+![Screenshot (6996)](https://user-images.githubusercontent.com/61174498/134770580-93d41dbb-83ab-4032-a6f0-13335ab090dd.png)
 
 **Explanation**
 
-Solution: RETR (Retrieval of files)
+Solution: STOR (Retrieval of files)
 
 RETR		Retrieve a copy of the file
 
