@@ -112,7 +112,7 @@ Input ```mysql.command==3``` as the filter.
 
 ![Screenshot (6948)](https://user-images.githubusercontent.com/61174498/134769847-5b49daa3-09c7-4c7f-89ca-4ccfbaf54c36.png)
 
-Solution: Screenshot
+Solution: All of packet that are shown in screenshot.
 
 
 # Question 5
