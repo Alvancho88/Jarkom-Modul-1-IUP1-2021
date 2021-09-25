@@ -106,11 +106,11 @@ Next Question: Sebutkan urutan konfigurasi pengkabelan T568A!
 mysql.command==3
 ```
 
-**Screenshot**
+**Explanation**
+
+Input ```mysql.command==3``` as the filter.
 
 ![Screenshot (6948)](https://user-images.githubusercontent.com/61174498/134769847-5b49daa3-09c7-4c7f-89ca-4ccfbaf54c36.png)
-
-**Explanation**
 
 Solution: Screenshot
 
@@ -122,19 +122,25 @@ Solution: Screenshot
 mysql.query matches insert
 ```
 
-**Screenshot**
+**Explanation**
+
+At the first input ```mysql.query matches insert``` as the filter.
 
 ![Screenshot (6975)](https://user-images.githubusercontent.com/61174498/134769851-e1636af4-248e-45a4-82b2-cc26a8e6aeee.png)
 
+Select one packet and follow TCP Stream. It will show the username and password.
+
+Username: akakanomi, pass: pemisah4lautan
+
 ![Screenshot (6976)](https://user-images.githubusercontent.com/61174498/134769855-16fbd1e3-6e42-4456-9146-8c84c94cd8ce.png)
+
+Login to portal.ichimarumaru.tech and input the username and password. After login, it will appear one question like below:
 
 ![Screenshot (6977)](https://user-images.githubusercontent.com/61174498/134769859-c2dc36dc-35a0-4ad9-804f-cce009efa202.png)
 
-**Explanation**
+**Solution**
 
-Solution: Screenshot
-
-Next Question: Sebutkan urutan konfigurasi pengkabelan T568B!
+Sebutkan urutan konfigurasi pengkabelan T568B!
 
 1. White Orange	
 
