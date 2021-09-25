@@ -184,17 +184,21 @@ PASS		Authentication password
 frame contains “Real.pdf” 
 ```
 
-**Screenshot**
+**Explanation**
+
+At the first input ```frame contains “Real.pdf”``` as the filter.
 
 ![Screenshot (6979)](https://user-images.githubusercontent.com/61174498/134769873-5c78650c-84e2-407e-ba12-4862defbe2e0.png)
 
+Select one of the packet, then follow TCP Stream.
+
 ![Screenshot (6980)](https://user-images.githubusercontent.com/61174498/134769879-117b453e-d374-47f6-9e8e-ee8cce6cd43f.png)
+
+Change show data to "Raw" and save as pdf. Open the pdf and you got the solution.
 
 ![Screenshot (6981)](https://user-images.githubusercontent.com/61174498/134769884-a869d0a3-3a62-4960-8b99-1971df098142.png)
 
-**Explanation**
-
-Solution: Ubah show data as “Raw”, lalu save as pdf
+Solution: In the form of pdf.
 
 
 # Question 8
