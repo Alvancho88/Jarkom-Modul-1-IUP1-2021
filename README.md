@@ -9,6 +9,16 @@ Repository Laporan Resmi Praktikum Modul 1 Jarkom Wireshark
 
 **(05111942000028) Salma Izzatul Islam**
 
+Work Explanation:
+Aldi
+2,3,8,9,10,15
+
+Juan
+1,4,5,6,7
+
+Salma
+11,12,13,14
+
 # Question 1
 **What web server is used on "ichimarumaru.tech"!**
 
@@ -342,3 +352,8 @@ config /all
 ```
 
 SRC filter will filter packets from designated address
+
+**Problems**
+-Not used to Wireshark
+-Not used to Networking
+-Not used to puzzle based question
